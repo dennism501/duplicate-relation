@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_campaign_campaigns",
+  "info": {
+    "displayName": "Campaign"
+  },
+  "options": {},
+  "attributes": {
+    "Description": {
+      "type": "text"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}

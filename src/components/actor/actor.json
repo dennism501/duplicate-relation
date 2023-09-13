@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_actor_actors",
+  "info": {
+    "displayName": "Actor",
+    "icon": "alien",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "headshot": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Campaign": {
+      "type": "component",
+      "repeatable": true,
+      "component": "campaign.campaign"
+    }
+  }
+}
